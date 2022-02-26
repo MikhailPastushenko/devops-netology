@@ -18,3 +18,6 @@ git diff
 
 git diff --staged
 ![img_5.png](img_5.png)
+
+git commit -m "First commit"
+![img_6.png](img_6.png)
