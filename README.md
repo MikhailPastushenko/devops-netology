@@ -21,3 +21,12 @@ git diff --staged
 
 git commit -m "First commit"
 ![img_6.png](img_6.png)
+
+git diff --staged
+![img_7.png](img_7.png)
+
+в каталоге Terraform, благодаря файлу .gitignore, будут проигнорированы
+1) все файлы из подкаталогов ./terraform/ на любом уровне вложенности
+2) файлы, включающие .tfstate
+3) файлы с раширениями .log, .tfvars, .tfvars.json, _override.tf, _override.tf.json
+4) файлы override.tf , override.tf.json, .terraformrc, terraform.rc
