@@ -30,3 +30,6 @@ git diff --staged
 2) файлы, включающие .tfstate
 3) файлы с раширениями .log, .tfvars, .tfvars.json, _override.tf, _override.tf.json
 4) файлы override.tf , override.tf.json, .terraformrc, terraform.rc
+
+
+Ветка fix из задания "2.2. Основы Git"
